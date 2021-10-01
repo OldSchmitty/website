@@ -1,0 +1,365 @@
+strong{
+    color: #f74843;
+    font-size: 2em;
+}
+
+em{
+    color: #d9d9d6 ;
+}
+
+p{
+    margin-bottom: 60px;
+}
+
+footer {
+    padding: 2px 0px;
+}
+
+nav ul{
+    padding: 1% 0;
+}
+
+#blurb p, #intro p{
+    padding: 2% 3%;
+    width: 94%;
+}
+
+a:hover, a:active{
+    background-color: white;
+    color: black;
+}
+
+em{
+    font-size: .9em;
+}
+
+@media screen and (min-width: 400px){
+    body{
+        display: block;
+        color: #d9d9d6;
+        /*text-shadow:
+                #-.5px -.5px 0 #FF0000,
+                .5px -.5px 0 #FF0000,
+                -.5px .5px 0 #FF0000,
+                .5px .5px 0 #FF0000;*/
+        font-family: Cabin, fantasy;
+        margin: auto;
+        max-width: 400px;
+        background: #1C1C1C url("images/background.jpg") no-repeat top fixed;
+        background-size: cover;
+        position: center;
+    }
+
+    h1 {
+        font-size: 18px;
+        color: #f74843;
+    }
+
+    h1 a {
+        text-decoration: none;
+        color: #f74843;
+    }
+
+    nav{
+        background-color: #1C1C1C;
+        margin-top: 0;
+        width: 100%
+    }
+
+
+    nav ul{
+        width: 100%;
+        list-style: none;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+    }
+
+
+    nav ul li a {
+        text-align: left;
+        text-decoration: none;
+        font-size: 12pt;
+        color: white;
+        margin-right: 10px;
+        margin-left: 5px;
+    }
+
+    nav li:hover{
+        background-color: white;
+        color: black;
+    }
+
+    nav li a:hover {
+        color: black;
+    }
+
+    #mainContent {
+        font-size: 12pt;
+        text-align: center;
+        background-color: rgba(28, 28, 28, .9);
+    }
+
+    #intro p{
+        font-size: 14px;
+        background-color: rgba(28, 28, 28, .9);
+    }
+
+    #questions{
+        text-align: center;
+        color:#f74843;
+        font-size: 16px;
+    }
+
+    #blurb p{
+        font-size: 14px;
+        background-color: rgba(28, 28, 28, .9);
+    }
+
+
+
+    footer h3{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    footer{
+        bottom: 0;
+        background-color: #1C1C1C;
+        position: relative;
+    }
+    footer h3 a {
+        color: white;
+    }
+}
+
+@media screen and (min-width: 600px){
+    body{
+        display: block;
+        color: #d9d9d6;
+        /*text-shadow:
+                #-.5px -.5px 0 #FF0000,
+                .5px -.5px 0 #FF0000,
+                -.5px .5px 0 #FF0000,
+                .5px .5px 0 #FF0000;*/
+        font-family: Cabin, fantasy;
+        margin: auto;
+        background: #1C1C1C url("images/background.jpg") no-repeat top fixed;
+        background-size: cover;
+        position: center;
+        max-width: 700px;
+    }
+    h1{
+        font-size: 26px;
+    }
+
+    h1 a {
+        text-decoration: none;
+        color: #f74843;
+    }
+
+    nav{
+        background-color: #1C1C1C;
+        margin-top: 0;
+        width: 100%
+    }
+
+
+    nav ul{
+        width: 100%;
+        list-style: none;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+    }
+
+
+    nav ul li a {
+        text-align: left;
+        text-decoration: none;
+        font-size: 18pt;
+        color: white;
+        margin-right: 10px;
+        margin-left: 5px;
+    }
+
+    nav li:hover{
+        background-color: white;
+        color: black;
+    }
+
+    nav li a:hover {
+        color: black;
+    }
+
+    #mainContent {
+        font-size: 18pt;
+        background-color: rgba(28, 28, 28, .9);
+        margin: auto;
+    }
+
+    #intro p {
+        font-size: 22px;
+        background-color: rgba(28, 28, 28, .98);
+    }
+
+    #questions{
+        text-align: center;
+        color: #f74843;
+        font-size: 22px;
+    }
+
+    #blurb p {
+        font-size: 22px;
+        background-color: rgba(28, 28, 28, .9);
+    }
+
+
+    footer h3{
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    footer{
+        bottom: 0;
+        background-color: #1C1C1C;
+        position: relative;
+        margin-top: 20px;
+    }
+    footer h3 a {
+        color: white;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    body {
+        display: block;
+        width: 70%;
+        color: #d9d9d6;
+        /*text-shadow:
+                #-.5px -.5px 0 #FF0000,
+                .5px -.5px 0 #FF0000,
+                -.5px .5px 0 #FF0000,
+                .5px .5px 0 #FF0000;*/
+        font-family: Cabin, fantasy;
+        margin: auto;
+        max-width: 1200px;
+        background: #1C1C1C url("images/background.jpg") no-repeat top fixed;
+        background-size: cover;
+    }
+
+
+    nav {
+        width: 100%;
+        background-color: #1C1C1C;
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+
+
+    nav ul {
+        width: 100%;
+        list-style: none;
+        margin-top: 0;
+        margin-bottom: 10px;
+
+    }
+
+    nav ul li {
+        display: inline-block;
+        list-style: none;
+    }
+
+
+    nav ul li a {
+        text-align: left;
+        text-decoration: none;
+        font-size: 20pt;
+        color: white;
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+
+    nav li:hover {
+        background-color: white;
+        color: black;
+    }
+
+    nav li a:hover {
+        color: black;
+    }
+
+
+
+    #mainContent {
+        font-size: 35pt;
+        background-color: rgba(28, 28, 28, .9);
+        height: 300px;
+    }
+
+
+
+    h1 {
+        font-size: 30pt;
+        /*text-shadow:
+                -1px -1px 0 #000000,
+                1px -1px 0 #000000,
+                1px 1px 0 #000000,
+                1px 1px 0 #000000;*/
+
+        margin-bottom: 15px;
+    }
+
+    h1 a {
+        text-decoration: none;
+        color: #f74843;
+    }
+
+    #intro p {
+        color: #f74843;
+        font-size: 24px;
+        background-color: rgba(28, 28, 28, .9);
+    }
+
+    #questions{
+        text-align: center;
+        color: #f74843;
+        font-size: 30px;
+    }
+
+    #blurb p {
+        font-size: 24px;
+        background-color: rgba(28, 28, 28, .9);
+    }
+
+    #main{
+        width: 100%;
+
+    }
+
+
+    footer {
+        bottom: 0;
+        background-color: #1C1C1C;
+        position: relative;
+        color: white;
+        width: 100%;
+    }
+
+    footer h3 {
+        margin-left: 10px;
+    }
+
+    footer h3 a {
+        color: white;
+    }
+
+
+}
