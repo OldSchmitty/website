@@ -1,14 +1,14 @@
 body {
     margin: 0;
-    background: #F0E5E0;
+    background: beige;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
+    height: 100%;
 }
 
 .container {
     width: 80%;
     margin: 0 auto;
-    
 }
 
 header {
@@ -74,6 +74,86 @@ nav ul li a:hover::after {
 }
 
 
+.current{
+    font-weight: 800;
+}
+
+
+.rounding{
+    float: left;
+}
+
+.portrait{
+    height: 25em;
+    border-radius: 2em;
+    margin: auto;
+    margin-right: 6em;
+}
+
+.block{
+    background-color:beige;
+}
+
+.content {
+    height: 30em;
+    background-color: #88736B;
+    color: #F0E5E0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 3em;
+    padding: 2em;
+    border-radius: 10em;
+    
+}
+
+.blurb {
+    font-size: 3em;
+    text-align: center;
+    display: inline-block;
+    background-color: #403534;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-right: 1em;
+    padding-left: 1em;
+    border-radius: .5em;
+}
+
+footer {
+    background-color: #671C01;
+    color: #F0E5E0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-size: 8;
+    height: 2em;
+    display: flex; 
+    align-items: center; 
+    margin: 0;
+    padding: 0;
+}
+
+.gmail{
+    height: 1.2em;
+    margin: 0;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.sig{
+    height: 1.2em;
+    margin: 0;
+    padding-right: 1em;
+    padding-left: 1em;
+    border-right: .1em solid #F0E5E0;
+}
+
+.page{
+    
+}
 
 
 
