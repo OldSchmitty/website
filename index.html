@@ -8,6 +8,7 @@
     <meta name="author" content="Mark Smith" >
     <meta name="description" content="A website about me">
     <meta name="keywords" content="HTML,CSS,JavaScript">
+    <title>MarkSoftware.dev</title>
     </head>
 
     <body>
@@ -15,11 +16,31 @@
         <div class = "container">
             <a href ='index.html'><img src = "images/logo.png" alt = "logo" class = "logo"></a> 
             <nav>
-                <ul>
+                <ul class = "normal-nav">
                     <li><a href = "index.html" class = "current">Home</a></li>
                     <li><a href = "about.html">About</a></li>
-                    <li><a href = "blog.html">Blog</a></li>
+                    <li><a href = "markBot.html">MarkBot</a></li>
                     <li><a href = "projects.html">Projects</a></li>
+                </ul>
+                <div class = "hamburger">
+                    <div class = "line line-1"></div>
+                    <div class = "line line-2"></div>
+                    <div class = "line line-3"></div>
+                </div>
+                <ul class = "hamburger-list">
+                    <li class = "hamburger-item">
+                        <a href = "#" class = "hamburger-link">Home</a>
+                    </li>
+                    <li class = "hamburger-item">
+                        <a href = "#" class = "hamburger-link">About</a>
+                    </li>
+                    <li class = "hamburger-item">
+                        <a href = "#" class = "hamburger-link">MarkBot</a>
+                    </li>
+                    <li class = "hamburger-item">
+                        <a href = "#" class = "hamburger-link">Projects</a>
+                    </li>
+
                 </ul>
             </nav>
         </div>
@@ -68,6 +89,7 @@
     </div>
     <div>
     </div>
+    <script src = "scripts.js"></script>
     <footer>
         <div class = "container">
             <a href="https://www.github.com/oldschmitty" target="_top"><img src = "images/linkedin-logo.png" alt = "linkedin logo" class = "sig"></a>
