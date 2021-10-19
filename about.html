@@ -3,102 +3,123 @@
 <html lang = en>
 
 <head>
-    <title>About</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="author" content="Mark Smith" >
-    <meta name="description" content="An in depth look at Mark">
-    <meta name="keywords" content="HTML,CSS,JavaScript">
-    <link rel="stylesheet" href="aboutStyle.css" type="text/css"/>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <link href ="https://fonts.googleapis.com/css?family=Work+Sans:300">
+        <link href="https://fonts.googleapis.com/css2?family=Arvo:ital@0;1&display=swap" rel="stylesheet">
+        <link href = "aboutStyle.css" rel = "stylesheet" type = "text/css">
+        <meta charset="UTF-8">
+        <meta name="author" content="Mark Smith" >
+        <meta name="description" content="A closer look into Mark">
+        <meta name="keywords" content="HTML,CSS,JavaScript">
+        <title>About Me</title>
 </head>
 
 <body>
-    <h1>
-        <a href ="./index.html">MARK SMITH</a>
-    </h1>
+    <header>
+        <div class = "container">
+            <a href ='index.html'><img src = "images/logo.png" alt = "logo" class = "logo"></a> 
+            <nav>
+                <ul class = "normal-nav">
+                    <li><a href = "index.html" >Home</a></li>
+                    <li><a href = "about.html" class = "current">About</a></li>
+                    <li><a href = "markBot.html">MarkBot</a></li>
+                    <li><a href = "projects.html">Projects</a></li>
+                </ul>
+                <div class = "hamburger">
+                    <div class = "line line-1"></div>
+                    <div class = "line line-2"></div>
+                    <div class = "line line-3"></div>
+                </div>
+                <ul class = "hamburger-list">
+                    <li class = "hamburger-item">
+                        <a href = "index.html" class = "hamburger-link">Home</a>
+                    </li>
+                    <li class = "hamburger-item">
+                        <a href = "about.html" class = "current hamburger-link">About</a>
+                    </li>
+                    <li class = "hamburger-item">
+                        <a href = "markBot.html" class = "hamburger-link">MarkBot</a>
+                    </li>
+                    <li class = "hamburger-item">
+                        <a href = "projects.html" class = "hamburger-link">Projects</a>
+                    </li>
 
-    <!--navigation-->
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="blog.html">Blog</a></li>
-        </ul>
-    </nav>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <div id="blurb">
-        <br>
-        <p>
-            <img class = "fLeft" id = "me" src = "images/me2.jpg" alt = "Picture of me">
-            <strong>Current PC Specs</strong><br>
-            Motherboard: Asus ROG Strix X470-F<br>
-            Processor: Ryzen 5 2600<br>
-            Ram: 16GB GSkill TridentZ DDR4 3200MHz<br>
-            GPU: XFX AMD RX 590 Fatboy 8GB<br>
-            Storage: Samsung 970 EVO 1TB NVME<br>
-            PSU: Corsair RM750x<br>
-            Case: NZXT Tempest<br>
-            CPU Cooler: NOCTUA NH-D15<br>
-            Monitor: HP 25x<br>
-            Keyboard: Roccat Vulcan 120 Aimo<br>
-            Mouse: Roccat Kone Pure<br>
-            Headset: HyperX Cloud II<br>
-            Camera: Razer Kyo
+    <div class ="content1">
+        <div class = "rounded">
+            <img class = "portrait" id = "me" src = "images/realme2.jpg" alt = "Picture of me">
+        
+        </div>
+        <div class = blurb> 
+            <p>
+                <strong>Current PC Specs</strong><br>
+                Motherboard: Asus ROG Strix X470-F<br>
+                Processor: Ryzen 5 2600<br>
+                Ram: 16GB GSkill TridentZ DDR4 3200MHz<br>
+                GPU: XFX AMD RX 590 Fatboy 8GB<br>
+                Storage: Samsung 970 EVO 1TB NVME<br>
+                PSU: Corsair RM750x<br>
+                Case: NZXT Tempest<br>
+                CPU Cooler: NOCTUA NH-D15<br>
+                Monitor: HP 25x<br>
+                Keyboard: Roccat Vulcan 120 Aimo<br>
+                Mouse: Roccat Kone Pure<br>
+                Headset: HyperX Cloud II<br>
+                Camera: Razer Kyo
 
-        </p>
-
-
-        <p>
-            <img class = "fRight" src = "images/fish.jpg" alt = "Me catching a fish">
-            <br>
-            Hi, my name is Mark. I am an overly enthusiastic, and exceptionally passionate Computer Science Major living
-            the Front Range area of Colorado. Naturally, living in such a beautiful mountain landscape, I love all
-            things outdoors. Except I don’t. The view is nice, but I prefer a heated pool to a frigid mountain lake,
-            and a nice evening on the couch with bad movies over a campfire in the woods. Really, who wants to have to
-            set up a whole tent and campsite just to pack it all up in the next 48 hours? I like fishing though.
-            Sometimes I even catch things.
-        </p>
-
-        <p>
-
-            <img class = "fLeft" src = "images/DotA2Juggernaut.png" alt = "Juggernaut from the game DOTA 2">
-            <br>
-            What I do really enjoy is everything nerdy. Sci-Fi/Fantasy stuff, comic books, video games, arcades, anime,
-            anything mentioned in “Weird Al’s White and Nerdy”.  Just think of anything you can associate with the word
-            nerd, or geek, or the phrase “3 Time Magic the Gathering: Game Day Champion”. Got a good picture in your
-            head yet? Nice! Let me add a few things to really bring it into focus. I use to play Team Fortress 2
-            semi-professionally (captain of Duck Soup Gaming). I currently play way too much DOTA 2.
-        </p>
-
-        <p>
-
-            <img class = "fRight" src = "images/computer.jpg" alt = "Graphics card that doesn't fit into a computer case">
-            <br>
-            I have a collection of good Kung Fu movies. I have a collection of bad Kung Fu movies. I’ve watched nearly
-            every episode of anything Gordon Ramsey has ever been in, and yet all I know how to cook is steak and
-            chicken wings. I’m the kind of person that always does the math. The official strategy guide can say it’s
-            more DPS, but I want to know for sure. We all make mistakes. One time I spent an entire day wondering why
-            I couldn’t make a condition false in my code. That’s how I learned to look for semi-colons after conditions.
-        </p>
-
-        <p>
-            <br>
-            Currently I work for the Loveland Public Library in Adult Services. I love being able to connect people to
-            information. I love working with our statistics and data. Every month I host an online book club for
-            Sci-Fi/Fantasy. I also help with our homebound program where we deliver resources to patrons who are
-            disabled or otherwise can’t visit the library. I strongly believe that every person has a right to
-            information and knowledge. Fahrenheit 451 describes one of my worst fears (read it if you haven’t).
-            Coming from a computer science background, I find new ways to innovate all kinds of things workplaces
-            would never think to do. I wish to keep fostering community growth and enabling people to find the
-            information they seek.
-        </p>
+            </p>
+        </div>
     </div>
+    <div class = "content2">
+        <div class = column> 
+            <p>
+                <img class = "icon" src = "images/fish.jpg" alt = "Me catching a fish">
+                <br>
+                Hi, my name is Mark. I am an overly enthusiastic, and exceptionally passionate Computer Science Major living
+                the Front Range area of Colorado. Naturally, living in such a beautiful mountain landscape, I love all
+                things outdoors. Except I don’t. The view is nice, but I prefer a heated pool to a frigid mountain lake,
+                and a nice evening on the couch with bad movies over a campfire in the woods. Really, who wants to have to
+                set up a whole tent and campsite just to pack it all up in the next 48 hours? I like fishing though.
+                Sometimes I even catch things.
+            </p>
+        </div>
+        <div class = column> 
+            <p>
+
+                <img class = "icon" src = "images/DotA2Juggernaut.png" alt = "Juggernaut from the game DOTA 2">
+                <br>
+                What I do really enjoy is everything nerdy. Sci-Fi/Fantasy stuff, comic books, video games, arcades, anime,
+                anything mentioned in “Weird Al’s White and Nerdy”.  Just think of anything you can associate with the word
+                nerd, or geek, or the phrase “3 Time Magic the Gathering: Game Day Champion”. Got a good picture in your
+                head yet? Nice! Let me add a few things to really bring it into focus. I use to play Team Fortress 2
+                semi-professionally (captain of Duck Soup Gaming). I currently play way too much DOTA 2.
+            </p>
+        </div>
+        <div class = column> 
+            <p>
+
+                <img class = "icon" src = "images/computer.jpg" alt = "Graphics card that doesn't fit into a computer case">
+                <br>
+                I have a collection of good Kung Fu movies. I have a collection of bad Kung Fu movies. I’ve watched nearly
+                every episode of anything Gordon Ramsey has ever been in, and yet all I know how to cook is steak and
+                chicken wings. I’m the kind of person that always does the math. The official strategy guide can say it’s
+                more DPS, but I want to know for sure. We all make mistakes. One time I spent an entire day wondering why
+                I couldn’t make a condition false in my code. That’s how I learned to look for semi-colons after conditions.
+            </p>
+        </div>
+    </div>
+    
+    <script src = "scripts.js"></script>
     <footer>
-        <h3>Contact: <a href="mailto:Mark.Smith@rams.colostate.edu?Subject=Hello%20Mark"
-                        target="_top">Mark.Smith@rams.colostate.edu</a></h3>
-    </footer>
+        <div class = "container">
+            <a href="https://www.linkedin.com/in/markstevesmith" target="_top"><img src = "images/linkedin-logo.png" alt = "linkedin logo" class = "sig"></a>
+            <a href="https://www.github.com/oldschmitty" target="_top"><img src = "images/github-logo.png" alt = "github logo" class = "sig"></a>
+            <a href="mailto:website@marksoftware.dev" target="_top"><img src = "images/gmail-logo.png" alt = "gmail logo" class = "gmail"></a>
+            
+        </div>
+    </footer> 
 </body>
 </html>

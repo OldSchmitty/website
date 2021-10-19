@@ -2,57 +2,90 @@
 
 <html lang = en>
 
-
-<head>
-    <title>Projects</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="author" content="Mark Smith" >
-    <meta name="description" content="Projects I have done">
-    <meta name="keywords" content="HTML,CSS,JavaScript">
-    <link rel="stylesheet" href="projectsStyle.css" type="text/css"/>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
-</head>
+    <head>
+        <link href ="https://fonts.googleapis.com/css?family=Work+Sans:300">
+        <link href="https://fonts.googleapis.com/css2?family=Arvo:ital@0;1&display=swap" rel="stylesheet">
+        <link href = "projectsStyle.css" rel = "stylesheet" type = "text/css">
+        <meta charset="UTF-8">
+        <meta name="author" content="Mark Smith" >
+        <meta name="description" content="Previous and current projects">
+        <meta name="keywords" content="HTML,CSS,JavaScript">
+        <title>My Projects</title>
+        </head>
 
 <body>
-<h1>
-    <a href ="./index.html">MARK SMITH</a>
-</h1>
+    <header>
+        <div class = "container">
+            <a href ='index.html'><img src = "images/logo.png" alt = "logo" class = "logo"></a> 
+            <nav>
+                <ul class = "normal-nav">
+                    <li><a href = "index.html" >Home</a></li>
+                    <li><a href = "about.html">About</a></li>
+                    <li><a href = "markBot.html">MarkBot</a></li>
+                    <li><a href = "projects.html" class = "current">Projects</a></li>
+                </ul>
+                <div class = "hamburger">
+                    <div class = "line line-1"></div>
+                    <div class = "line line-2"></div>
+                    <div class = "line line-3"></div>
+                </div>
+                <ul class = "hamburger-list">
+                    <li class = "hamburger-item">
+                        <a href = "index.html" class = "hamburger-link">Home</a>
+                    </li>
+                    <li class = "hamburger-item">
+                        <a href = "about.html" class = "hamburger-link">About</a>
+                    </li>
+                    <li class = "hamburger-item">
+                        <a href = "markBot.html" class = "hamburger-link">MarkBot</a>
+                    </li>
+                    <li class = "hamburger-item">
+                        <a href = "projects.html" class = "current hamburger-link">Projects</a>
+                    </li>
 
-<!--navigation-->
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="blog.html">Blog</a></li>
-    </ul>
-</nav>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<div id="blurb">
-    <p>
-        <img class = "fRight" src = "images/flights.webp" alt = "Man at an Airport">
-        <strong><a href = "https://github.com/OldSchmitty/TripCoFinal">TripCo</a></strong> <br>
-        This project was done for CS314 Software Engineering. The basic Idea is to make a site that calculates the shortest trip for a traveler based on airport locations. The user can select and add the airports they plan to fly to and then the code uses a 3-opt algorithm to find shortest paths by calculating geodesic lines to and from each airport. The program then gives the user the shortest path to take based on their selected starting airport. The program also assumes they user does not want to visit any airport twice, and does will not layaway anywhere. The back end was done in java and connects to the front end via Spark. The front end was done in JavaScript using React, NodeJS, and Bootstrap.
-        <br>
-    </p>
-    <p>
-        <img class = "fRight" src = "images/cables.webp" alt = "Network Patch Panel">
-        <strong><a href = "https://github.com/OldSchmitty/cs435">Steam User Data Analysis</a></strong><br>
-        CS455 Big Data asked tasked us with analyzing a large scale data set. What better set to use than the steam user database. Our initial questioning revolved around account net worth, and how it related to the number of friends and account had. The project was done in Java using Spark and a node cluster of 20 computers running HDFS. We created a neural network to create predictions of how much an account was worth, and how many friends the account has. It turns out that a very large majority of the Steam user base has extremely similar spending habits.
-        <br>
-    </p>
-    <p>
-        <img class = "fRight" src = "images/qt.png" alt = "Built With QT (logo)">
-        <strong><a href = "https://github.com/OldSchmitty/CS457">IRC Client/Server</a></strong><br>
-        This is a set of programs creating a chat room server and a client for people to connect to it. These programs do not quite comply with IRC standards, but are extremely similar. The standards we set by the class, CS457 Computer Networks and The Internet. Currently the client is fully functional for local network and internet connections. Messages are not currently encrypted, and there is no expectation of privacy as it was not required for the class. Both the client and server are done in C++ and are using a thread pool to accomplish tasks. The Client front end is done with Qt. See the documentation for a list of supported commands.
-    </p>
+
+<div class="content2">
+    <div class = "column">
+        <p>
+            <img class = "icon" src = "images/flights.webp" alt = "Man at an Airport">
+            <br>
+            <strong><a href = "https://github.com/OldSchmitty/TripCoFinal">TripCo</a></strong> <br>
+            This project was done for CS314 Software Engineering. The basic Idea is to make a site that calculates the shortest trip for a traveler based on airport locations. The user can select and add the airports they plan to fly to and then the code uses a 3-opt algorithm to find shortest paths by calculating geodesic lines to and from each airport. The program then gives the user the shortest path to take based on their selected starting airport. The program also assumes they user does not want to visit any airport twice, and does will not layaway anywhere. The back end was done in java and connects to the front end via Spark. The front end was done in JavaScript using React, NodeJS, and Bootstrap.
+            <br>
+        </p>
+    </div>
+    <div class = "column">
+        <p>
+            <img class = "icon" src = "images/cables.webp" alt = "Network Patch Panel">
+            <br>
+            <strong><a href = "https://github.com/OldSchmitty/cs435">Steam User Data Analysis</a></strong><br>
+            CS455 Big Data asked tasked us with analyzing a large scale data set. What better set to use than the steam user database. Our initial questioning revolved around account net worth, and how it related to the number of friends and account had. The project was done in Java using Spark and a node cluster of 20 computers running HDFS. We created a neural network to create predictions of how much an account was worth, and how many friends the account has. It turns out that a very large majority of the Steam user base has extremely similar spending habits.
+            <br>
+        </p>
+    </div>
+    <div class = "column">
+        <p>
+            <img class = "icon" src = "images/qt.png" alt = "Built With QT (logo)">
+            <br>
+            <strong><a href = "https://github.com/OldSchmitty/CS457">IRC Client/Server</a></strong><br>
+            This is a set of programs creating a chat room server and a client for people to connect to it. These programs do not quite comply with IRC standards, but are extremely similar. The standards we set by the class, CS457 Computer Networks and The Internet. Currently the client is fully functional for local network and internet connections. Messages are not currently encrypted, and there is no expectation of privacy as it was not required for the class. Both the client and server are done in C++ and are using a thread pool to accomplish tasks. The Client front end is done with Qt. See the documentation for a list of supported commands.
+        </p>
+    </div>
 </div>
-<footer>
-    <h3>Contact: <a href="mailto:Mark.Smith@rams.colostate.edu?Subject=Hello%20Mark"
-                    target="_top">Mark.Smith@rams.colostate.edu</a></h3>
-</footer>
+    <script src = "scripts.js"></script>
+    <footer>
+        <div class = "container">
+            <a href="https://www.linkedin.com/in/markstevesmith" target="_top"><img src = "images/linkedin-logo.png" alt = "linkedin logo" class = "sig"></a>
+            <a href="https://www.github.com/oldschmitty" target="_top"><img src = "images/github-logo.png" alt = "github logo" class = "sig"></a>
+            <a href="mailto:website@marksoftware.dev" target="_top"><img src = "images/gmail-logo.png" alt = "gmail logo" class = "gmail"></a>
+            
+        </div>
+    </footer> 
 </body>
 
 
