@@ -40,9 +40,6 @@
         float: right;
     }
     
-    nav select{
-        display: none;
-    }
 
     nav ul {
         margin: 0;
@@ -63,6 +60,7 @@
         text-transform: uppercase;
         font-size: 16;
         font-weight: 500;
+        
     }
 
     nav ul li a:hover {
@@ -75,7 +73,6 @@
         height: 5px;
         width: 0%;
         background-color: #F0E5E0;
-        
         position: absolute;
         transition: all ease-in-out 250ms;
     }
@@ -87,7 +84,7 @@
 
 
     .current{
-        font-weight: 800;
+        color: #DAC6C3;
     }
 
 
@@ -99,8 +96,8 @@
         display: block;
         margin: auto;
         max-height: 40em;
-        margin-bottom: 0;
         border-radius: 1em;
+        left: 0;
     }
 
     .content1 {
@@ -109,7 +106,7 @@
         color: #F0E5E0; 
         display: flex;
         align-items: center;
-        justify-content: center;
+        
         width: 95%;
         margin: auto;
         margin-bottom: 0;
@@ -133,15 +130,12 @@
 
     .blurb {
         font-size: 1.8em;
-        text-align: center;
+        text-align: left;
         display: flex;
         background-color: #403534;
-        padding-right: 2em;
         padding-left: 2em;
         height: 100%;
-        justify-content: center;
-        align-content: center;
-        margin: 0;
+        margin: auto;
     }
 
     .blurb .p{
@@ -444,7 +438,6 @@
         font-size: 3vw; 
         border: .1em solid #F0E5E0;
         margin-bottom: 10%;
-
     }
 
     .column .p{

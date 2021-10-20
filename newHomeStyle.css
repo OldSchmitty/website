@@ -63,6 +63,7 @@
         text-transform: uppercase;
         font-size: 16;
         font-weight: 500;
+        
     }
 
     nav ul li a:hover {
@@ -87,7 +88,7 @@
 
 
     .current{
-        font-weight: 800;
+        color: #DAC6C3;
     }
 
 
