@@ -12,9 +12,9 @@ a {
 
     body {
         margin: 0;
-        background: #210900;
+        background: #F0E5E0;
         font-family: 'Work Sans', sans-serif;
-        font-weight: 300;
+        font-weight: 400;
         height: 100%;
         min-width: 1200px;
     }
@@ -111,8 +111,8 @@ a {
 
     .content1 {
         height: 700px;
-        background-color: #210900;
-        color: #F0E5E0; 
+        background-color: #F0E5E0;
+        color: #100d08; 
         display: flex;
         align-items: center;
         justify-content: center;
@@ -125,7 +125,7 @@ a {
 
     .content2{
         height: 700px;
-        background-color: #210900;
+        background-color: #403534;
         color: #403534; 
         display: flex;
         align-items: center;
@@ -207,6 +207,7 @@ a {
         padding-right: 4%;
         background-color: #F0E5E0;
         border-radius: 1em;
+        border: .25em solid #100d08;
     }
 
     .column p a{
@@ -236,7 +237,7 @@ a {
 @media only screen and (max-width: 1000px) and (orientation: portrait){
 
     body {
-        background: #210900;
+        background: #403534;
         font-family: 'Work Sans', sans-serif;
         font-weight: 300;
         height: 100%;
@@ -377,7 +378,7 @@ a {
     }
 
     .content1 {
-        background-color: #210900;
+        background-color: #403534;
         color: #F0E5E0; 
         width: 95%;
         margin: auto;
@@ -387,7 +388,7 @@ a {
     }
 
     .content2{
-        background-color: #210900;
+        background-color: #403534;
         color: #403534; 
         width: 95%;
         padding: 2.5%;
@@ -399,7 +400,7 @@ a {
         font-size: 2em;
         text-align: center;
         clear: both;
-        background-color: #210900;
+        background-color: #403534;
         padding-right: 2.5%;
         padding-left: 2.5%;
         height: 100%;
@@ -414,6 +415,7 @@ a {
         margin: auto;
         font-family: Arvo, sans-serif;
         padding: 5%;
+        border: .1em solid #F0E5E0;
     }
 
 
@@ -466,6 +468,7 @@ a {
         padding-top: 5%;
         background-color: #F0E5E0;
         border-radius: 1em;
+        border: .25em solid #100d08;
     }
 
     .column p a{

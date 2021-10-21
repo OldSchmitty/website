@@ -7,7 +7,7 @@
 
     body {
         margin: 0;
-        background: #403534;
+        background: #F0E5E0;
         font-family: 'Work Sans', sans-serif;
         font-weight: 300;
         height: 100%;
@@ -102,7 +102,7 @@
 
     .content1 {
         height: 700px;
-        background-color: #403534;
+        background-color: #210900;
         color: #F0E5E0; 
         display: flex;
         align-items: center;
@@ -115,24 +115,18 @@
     }
 
     .content2{
-        height: 900px;
-        background-color: #210900;
-        color: #F2D8CE; 
-        display: flex;
         align-items: center;
         justify-content: center;
-        width: 95%;
-        padding-left: 2.5%;
-        padding-right: 2.5%;
+        width: 100%;
         margin: auto;
         padding-bottom: 2.8em;
     }
 
     .blurb {
-        font-size: 1.8em;
+        font-size: 3em;
         text-align: left;
         display: flex;
-        background-color: #403534;
+        background-color: #210900;
         padding-left: 2em;
         height: 100%;
         margin: auto;
@@ -178,20 +172,18 @@
     }
 
     .column{
-        display: flex;
-        flex: 33.33%;
         height: 90%;
         margin: auto;
         padding: 0;
-        text-align: center;
+        text-align: left;
         font-family: Arvo, sans-serif;
         font-size: 1.25em; 
-        border: .1em solid #F0E5E0;
     }
 
     .column .p{
-        padding-left: 4%;
-        padding-right: 4%;
+        padding: 5%;
+        background-color: #F0E5E0;
+        color: #210900;
     }
 
 
@@ -216,7 +208,7 @@
 @media only screen and (max-width: 1000px) and (orientation: portrait){
 
     body {
-        background: #403534;
+        background: #F0E5E0;
         font-family: 'Work Sans', sans-serif;
         font-weight: 300;
         height: 100%;
@@ -357,20 +349,20 @@
     }
 
     .content1 {
-        background-color: #403534;
+        background-color: #210900;
         color: #F0E5E0; 
         width: 95%;
         margin: auto;
         margin-bottom: 0;
         padding-left: 2.5%;
         padding-right: 2.5%;
+        padding-bottom: .5%
     }
 
     .content2{
         background-color: #210900;
         color: #F2D8CE; 
-        width: 95%;
-        padding: 2.5%;
+        width: 100%;
         margin: auto;
         margin-bottom: 10%;
     }
@@ -379,7 +371,7 @@
         font-size: 5.1vw;
         text-align: center;
         clear: both;
-        background-color: #403534;
+        background-color: #210900;
         padding-right: 2.5%;
         padding-left: 2.5%;
         height: 100%;
@@ -394,7 +386,6 @@
         margin: auto;
         font-family: Arvo, sans-serif;
         padding: 5%;
-        border: .1em solid #F0E5E0;
     }
 
 
@@ -433,18 +424,16 @@
 
     .column{
         padding: 0;
-        text-align: center;
+        text-align: left;
         font-family: Arvo, sans-serif;
-        font-size: 3vw; 
-        border: .1em solid #F0E5E0;
-        margin-bottom: 10%;
+        font-size: 3.5vw; 
+        margin-bottom: 15%;
     }
-
+    
     .column .p{
-        padding-left: 4%;
-        padding-right: 4%;
-        padding-bottom: 5%;
-        padding-top: 5%;
+        padding: 5%;
+        background-color: #F0E5E0;
+        color: #210900;
     }
 
 
